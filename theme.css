@@ -1,7 +1,7 @@
 :root {
   --theme: dark;
   --border-radius: 0rem;
-  --font: cursive;
+  --font: monospace;
 
   /* colors name */
   --color-primary: dodgerblue;
