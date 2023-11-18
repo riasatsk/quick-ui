@@ -1,0 +1,6 @@
+dialog {
+  border-radius: var(--dialog-radius);
+  padding: 1rem;
+}
+
+  
