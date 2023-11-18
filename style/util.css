@@ -1,0 +1,22 @@
+button:disabled {
+  cursor: not-allowed;
+  scale: 1;
+}
+
+button[wide] {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+[bold] {
+  font-weight: bold;
+}
+
+button[icon] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  & svg {
+    max-height: 1.2rem;
+  }
+}

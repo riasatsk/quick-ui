@@ -1,0 +1,99 @@
+@import url("./style/util.css");
+
+* {
+  color-scheme: var(--theme);
+}
+
+body {
+  font-family: var(--font);
+}
+[color="primary"] {
+  background-color: var(--color-primary);
+}
+
+[color="secondary"] {
+  background-color: var(--color-secondary);
+}
+
+[color="success"] {
+  background-color: var(--color-success);
+  color: black;
+}
+
+[color="danger"] {
+  background-color: var(--color-danger);
+}
+[color="warning"] {
+  background-color: var(--color-warning);
+  color: black;
+}
+
+button[outline="primary"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-primary);
+}
+
+button[outline="secondary"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-secondary);
+}
+
+button[outline="success"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-success);
+}
+
+button[outline="danger"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-danger);
+}
+button[outline="warning"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-warning);
+}
+button[outline="white"] {
+  background-color: transparent;
+  outline: 1.5px solid white;
+}
+button[outline="black"] {
+  background-color: transparent;
+  outline: 1.5px solid black;
+}
+
+button {
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  margin: 2px;
+  border: 1px;
+  padding: 0.5rem 1rem;
+  transition-duration: 100ms;
+  opacity: 95%;
+  font-family: var(--font);
+  font-size: medium;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+button:active {
+  scale: 95%;
+}
+
+button::selection {
+  background-color: transparent;
+}
+
+input {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  border: 1px solid;
+  font-family: var(--font);
+  font-size: medium;
+}
+
+input:focus {
+  outline: none;
+}

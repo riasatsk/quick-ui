@@ -1,0 +1,12 @@
+:root {
+  --theme: dark;
+  --border-radius: 0rem;
+  --font: cursive;
+
+  /* colors name */
+  --color-primary: dodgerblue;
+  --color-secondary: teal;
+  --color-success: lime;
+  --color-danger: tomato;
+  --color-warning: yellow;
+}
