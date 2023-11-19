@@ -1,12 +1,37 @@
 nav {
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-between;
+  & #logo {
+    font-weight: bold;
+    margin-left: 1rem;
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    &:hover {
+      color: lime;
+      border: 2px solid lime;
+      cursor: pointer;
+    }
+    &::selection {
+      background-color: transparent;
+    }
+  }
   & ul {
     display: flex;
     gap: 0.5rem;
     align-items: center;
-    width: 80%;
+    justify-content: flex-end;
+    padding-right: 2rem;
     list-style: none;
     font-size: medium;
+  }
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0.5rem;
+  &:hover {
+    outline: 1px solid;
   }
 }

@@ -1,11 +1,8 @@
 @import url("./style/util.css");
 @import url("./style/modal.css");
-@import url("./style/color.css");
 @import url("./style/button.css");
 @import url("./style/input.css");
 @import url("./style/background.css");
-@import url("./style/anchor.css");
-@import url("./style/pattern.css");
 @import url("./style/nav.css");
 
 * {

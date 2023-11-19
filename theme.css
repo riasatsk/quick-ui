@@ -1,7 +1,7 @@
 :root {
   --theme: dark;
   --border-radius: 2rem;
-  --font: cursive;
+  --font: sans-serif;
   --dialog-radius:.5rem;
   
   /* colors name */
