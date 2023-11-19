@@ -6,6 +6,7 @@
 @import url("./style/background.css");
 @import url("./style/anchor.css");
 @import url("./style/pattern.css");
+@import url("./style/nav.css");
 
 * {
   color-scheme: var(--theme);
