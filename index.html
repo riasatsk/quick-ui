@@ -11,19 +11,24 @@
     <input type="text" placeholder="Type Here" />
     <button color="primary">Submit</button>
     <h1>Hello World</h1>
-    <button color="success">Success</button>
-    <button color="danger">Danger</button>
+    <button success color="black">Success</button>
+
+    <button outline="danger">Delete</button>
+    <button outline="success" hover="black">Delete</button>
+
     <dialog id="helloModal">
       Do you really want to logout ?
-      <br/>
-      <br/>
+      <br />
+      <br />
       <form method="dialog">
         <div>
-          <button outline="success">Cancel</button>
-          <button color="danger">Logout</button>
+          <button outline="success" hover="black">Cancel</button>
+          <button danger>Logout</button>
         </div>
       </form>
     </dialog>
-    <button color="secondary" onclick="helloModal.showModal()">Logut</button>
+    <button secondary onclick="helloModal.showModal()">Logut</button>
+
+    <input type="text" outline="danger" color="red" />
   </body>
 </html>

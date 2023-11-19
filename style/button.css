@@ -1,0 +1,87 @@
+button[outline="primary"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-primary);
+  &:hover {
+    background-color: var(--color-primary);
+  }
+}
+
+button[outline="secondary"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-secondary);
+  &:hover {
+    background-color: var(--color-secondary);
+  }
+}
+
+button[outline="success"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-success);
+  &:hover {
+    background-color: var(--color-success);
+  }
+}
+
+button[outline="danger"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-danger);
+  &:hover {
+    background-color: var(--color-danger);
+  }
+}
+button[outline="warning"] {
+  background-color: transparent;
+  outline: 1.5px solid var(--color-warning);
+  &:hover {
+    background-color: var(--color-warning);
+  }
+}
+
+button[outline="white"] {
+  background-color: transparent;
+  outline: 1.5px solid white;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+button[outline="black"] {
+  background-color: transparent;
+  outline: 1.5px solid black;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+[hover="black"]:hover {
+  color: black;
+}
+[hover="white"]:hover {
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  margin: 2px;
+  border: 1px;
+  padding: 0.5rem 1rem;
+  transition-duration: 100ms;
+  opacity: 95%;
+  font-family: var(--font);
+  font-size: medium;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+button:active {
+  scale: 95%;
+}
+
+button::selection {
+  background-color: transparent;
+}

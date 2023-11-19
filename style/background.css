@@ -1,0 +1,38 @@
+[primary] {
+  background-color: var(--color-primary);
+}
+
+[secondary] {
+  background-color: var(--color-secondary);
+}
+
+[success] {
+  background-color: var(--color-success);
+}
+
+[danger] {
+  background-color: var(--color-danger);
+}
+[warning] {
+  background-color: var(--color-warning);
+}
+
+/* text-color */
+[color="black"] {
+  color: black;
+}
+[color="white"] {
+  color: white;
+}
+[color="orange"] {
+  color: orange;
+}
+[color="red"] {
+  color: tomato;
+}
+[color="pink"] {
+  color: pink;
+}
+[color="green"] {
+  color: limegreen;
+}
