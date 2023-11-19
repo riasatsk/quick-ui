@@ -1,0 +1,9 @@
+a[button] {
+  padding: 0.5rem 1rem;
+  margin: 2px;
+  border: 1px;
+  border-radius: var(--border-radius);
+  font-family: var(--font);
+  color: unset;
+  text-decoration: none;
+}
