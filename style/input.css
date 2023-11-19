@@ -5,6 +5,7 @@ input {
   border: 1px solid;
   font-family: var(--font);
   font-size: medium;
+  margin: 3px;
 }
 
 input:focus {

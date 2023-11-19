@@ -12,7 +12,7 @@ button[wide] {
   font-weight: bold;
 }
 
-button[icon] {
+a[icon],button[icon] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
