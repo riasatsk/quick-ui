@@ -5,6 +5,7 @@
 @import url("./style/input.css");
 @import url("./style/background.css");
 @import url("./style/anchor.css");
+@import url("./style/pattern.css");
 
 * {
   color-scheme: var(--theme);
